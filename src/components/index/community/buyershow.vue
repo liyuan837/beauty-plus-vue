@@ -10,7 +10,7 @@
                         <p>演得太逼真</p>
                         <small>5分钟前</small>
                     </span>
-                    <span><router-link href="javascript:void(0)" :to="{name:'login'}">关注</router-link></span>
+                    <span><router-link href="javascript:void(0)" :to="{name:'login',params:{'title':'登录'}}">关注</router-link></span>
                 </div>
                 <p class="content mui-ellipsis2">
                     商铺老板说，6月14号才发货，哈哈想不到那么快收到，爱上美+，质量很好，版型也特别喜欢
